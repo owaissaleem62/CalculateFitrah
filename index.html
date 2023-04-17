@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitrana</title>
+</head>
+<body>
+    <script>
+        var familmembers= +prompt("Enter the number of family members");
+        var fitrah= +prompt("1:Ghandum ka ata 2:Jau 3:Khajoor 4:Ajwa Khajoor 5:Kishmish")
+        
+        var Ghandum=320;
+        var Jau=800
+        var Khajoor=2800;
+        var ajwa=10400;
+        var Kishmish=6400;
+        var result;
+
+        if(fitrah == 1){
+            result= familmembers*Ghandum;
+            alert(result)
+        }else if(fitrah == 2){
+            result= familmembers*Jau;
+            alert(result)
+        }else if(fitrah == 3){
+            result= familmembers*Khajoor;
+            alert(result)
+        }else if(fitrah == 4){
+            result= familmembers*ajwa;
+            alert(result)
+        }else if(fitrah == 5){
+            result= familmembers*Kishmish;
+            alert(result)
+        }
+
+
+    </script>
+</body>
+</html>
